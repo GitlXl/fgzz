@@ -8,14 +8,15 @@
 主动扫描（主动扫描为扫描方式，不要造成误解，对应图上第一个按钮）：
 ![image](https://user-images.githubusercontent.com/35132751/145958686-c422d856-6c9e-4b66-81c3-005fbbb17da0.png)
 
+被动扫描
+![image](https://user-images.githubusercontent.com/35132751/146002285-844a1210-38cd-4a35-8217-d7aca93dfd41.png)
+
 ---
 
 ### 2021年12月14日：Log4j规则库
-#### 主动扫描Log4j
-![image](https://user-images.githubusercontent.com/35132751/145957731-d31fbc36-c31d-406a-a92e-6f703129ec13.png)
+#### 主动扫描Log4j效果：
 
-#### 被动扫描：
-![image](https://user-images.githubusercontent.com/35132751/146002285-844a1210-38cd-4a35-8217-d7aca93dfd41.png)
+![image](https://user-images.githubusercontent.com/35132751/145957731-d31fbc36-c31d-406a-a92e-6f703129ec13.png)
 
 #### 内网也可玩：
 
