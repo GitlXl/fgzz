@@ -1,5 +1,5 @@
 # fgzz_规则库
-插件项目：https://github.com/wagiro/BurpBounty/
+老外的插件项目（拿来把你）：https://github.com/wagiro/BurpBounty/
 插件使用方法：
 ![image](https://user-images.githubusercontent.com/35132751/145958377-cf2daf5c-78ff-4ae8-aad2-6fd24c6ee024.png)
 主动扫描：
