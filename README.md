@@ -9,3 +9,6 @@
 ### 2021年12月14日：Log4j规则库
 主动扫描Log4j
 ![image](https://user-images.githubusercontent.com/35132751/145957731-d31fbc36-c31d-406a-a92e-6f703129ec13.png)
+内网也可玩：
+![image](https://user-images.githubusercontent.com/35132751/145965510-ba1b51e2-5bd3-4062-966a-6081a723bd9b.png)
+开启burpsuite自带的dnslog:sudo java -jar burpsuite_pro_v2021.10.2.jar --collaborator-server
