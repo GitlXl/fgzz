@@ -15,4 +15,5 @@
 ![image](https://user-images.githubusercontent.com/35132751/145965510-ba1b51e2-5bd3-4062-966a-6081a723bd9b.png)
 
 开启burpsuite自带的dnslog:sudo java -jar burpsuite_pro_v2021.10.2.jar --collaborator-server
+
 科普：https://www.cnblogs.com/blacksunny/p/8005053.html
