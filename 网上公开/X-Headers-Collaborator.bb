@@ -1,0 +1,133 @@
+[
+  {
+    "ProfileName": "X-Headers-Collaborator",
+    "Name": "",
+    "Enabled": true,
+    "Scanner": 1,
+    "Author": "@egarme",
+    "Payloads": [
+      "true,http://{BC}"
+    ],
+    "Encoder": [],
+    "UrlEncode": false,
+    "CharsToUrlEncode": "",
+    "Grep": [],
+    "Tags": [
+      "Collaborator",
+      "All"
+    ],
+    "PayloadResponse": false,
+    "NotResponse": false,
+    "TimeOut1": "",
+    "TimeOut2": "",
+    "isTime": false,
+    "contentLength": "",
+    "iscontentLength": false,
+    "CaseSensitive": false,
+    "ExcludeHTTP": false,
+    "OnlyHTTP": false,
+    "IsContentType": false,
+    "ContentType": "",
+    "HttpResponseCode": "",
+    "NegativeCT": false,
+    "IsResponseCode": false,
+    "ResponseCode": "",
+    "NegativeRC": false,
+    "urlextension": "",
+    "isurlextension": false,
+    "NegativeUrlExtension": false,
+    "MatchType": 1,
+    "Scope": 0,
+    "RedirType": 1,
+    "MaxRedir": 0,
+    "payloadPosition": 1,
+    "payloadsFile": "",
+    "grepsFile": "",
+    "IssueName": "X-Headers-Collaborator",
+    "IssueSeverity": "High",
+    "IssueConfidence": "Certain",
+    "IssueDetail": "X-Headers-Collaborator",
+    "RemediationDetail": "",
+    "IssueBackground": "",
+    "RemediationBackground": "",
+    "Header": [
+      {
+        "type": "Request",
+        "match": "",
+        "replace": "X-Forwarded-For: {PAYLOAD}",
+        "regex": "String"
+      },
+      {
+        "type": "Request",
+        "match": "",
+        "replace": "X-Host: {PAYLOAD}",
+        "regex": "String"
+      },
+      {
+        "type": "Request",
+        "match": "",
+        "replace": "X-Forwarded-Server: {PAYLOAD}",
+        "regex": "String"
+      },
+      {
+        "type": "Request",
+        "match": "",
+        "replace": "X-Forwarded-Scheme: {PAYLOAD}",
+        "regex": "String"
+      },
+      {
+        "type": "Request",
+        "match": "",
+        "replace": "X-Original-URL: {PAYLOAD}",
+        "regex": "String"
+      },
+      {
+        "type": "Request",
+        "match": "",
+        "replace": "X-Rewrite-URL: {PAYLOAD}",
+        "regex": "String"
+      }
+    ],
+    "VariationAttributes": [],
+    "InsertionPointType": [
+      18,
+      65,
+      32,
+      36,
+      7,
+      1,
+      2,
+      6,
+      33,
+      5,
+      35,
+      34,
+      64,
+      0,
+      3,
+      4,
+      37,
+      127,
+      65,
+      32,
+      36,
+      7,
+      1,
+      2,
+      6,
+      33,
+      5,
+      35,
+      34,
+      64,
+      0,
+      3,
+      4,
+      37,
+      127
+    ],
+    "Scanas": false,
+    "Scantype": 0,
+    "pathDiscovery": false
+  }
+]
